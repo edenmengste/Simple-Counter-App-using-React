@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
+import './app.css';
 
-function App() {
+function app() {
     const [count, setCount] = useState(0);
 
     // Handlers
@@ -10,7 +10,7 @@ function App() {
     const reset = () => setCount(0);
 
     return (
-        <div className="App">
+        <div className="app">
             <h1>Counter App</h1>
             <h2>Count: {count}</h2>
             <button onClick={increment}>Increment</button>
@@ -20,4 +20,4 @@ function App() {
     );
 }
 
-export default App;
+export default app;
