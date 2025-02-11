@@ -1,4 +1,4 @@
-# Simple-React-app
+# Simple Counter App using React
 
 * To start the React app in your browser, 
 1. Run ```npm start``` in the terminal.
